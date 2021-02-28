@@ -11,6 +11,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalExeCall", "External
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWebServerUrlParser", "BasicWebServer\BasicWebServerUrlParser.csproj", "{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myWebDynamic", "myWebDynamic", "{22F1583E-2D46-4A70-BE7B-58BCC69C1728}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myHttpListener", "myWebDynamic\myHttpListener\myHttpListener.csproj", "{188BCC2C-50CD-409F-AC50-8FCAFED7316A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myWebDynamicsPagesGeneration", "myWebDynamicsPagesGeneration\myWebDynamicsPagesGeneration.csproj", "{0DA00697-BC2F-4A35-BC57-70808CE11B7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myWebUrlParser", "myWebDynamic\myWebUrlParser\myWebUrlParser.csproj", "{F8EFDFF1-9E90-44B4-BEE5-2C718A55F293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "externalMethod", "myWebDynamic\externalMethod\externalMethod.csproj", "{633234B3-EB9D-4328-8C90-071F6E001DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalPythonScript", "myWebDynamic\ExternalPhpScript\ExternalPythonScript.csproj", "{542D4304-757E-4277-8217-32278276B7A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +45,36 @@ Global
 		{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188BCC2C-50CD-409F-AC50-8FCAFED7316A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188BCC2C-50CD-409F-AC50-8FCAFED7316A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188BCC2C-50CD-409F-AC50-8FCAFED7316A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188BCC2C-50CD-409F-AC50-8FCAFED7316A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA00697-BC2F-4A35-BC57-70808CE11B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA00697-BC2F-4A35-BC57-70808CE11B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA00697-BC2F-4A35-BC57-70808CE11B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA00697-BC2F-4A35-BC57-70808CE11B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EFDFF1-9E90-44B4-BEE5-2C718A55F293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EFDFF1-9E90-44B4-BEE5-2C718A55F293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EFDFF1-9E90-44B4-BEE5-2C718A55F293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EFDFF1-9E90-44B4-BEE5-2C718A55F293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633234B3-EB9D-4328-8C90-071F6E001DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633234B3-EB9D-4328-8C90-071F6E001DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633234B3-EB9D-4328-8C90-071F6E001DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633234B3-EB9D-4328-8C90-071F6E001DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542D4304-757E-4277-8217-32278276B7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542D4304-757E-4277-8217-32278276B7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542D4304-757E-4277-8217-32278276B7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542D4304-757E-4277-8217-32278276B7A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{188BCC2C-50CD-409F-AC50-8FCAFED7316A} = {22F1583E-2D46-4A70-BE7B-58BCC69C1728}
+		{0DA00697-BC2F-4A35-BC57-70808CE11B7F} = {22F1583E-2D46-4A70-BE7B-58BCC69C1728}
+		{F8EFDFF1-9E90-44B4-BEE5-2C718A55F293} = {22F1583E-2D46-4A70-BE7B-58BCC69C1728}
+		{633234B3-EB9D-4328-8C90-071F6E001DE6} = {22F1583E-2D46-4A70-BE7B-58BCC69C1728}
+		{542D4304-757E-4277-8217-32278276B7A0} = {22F1583E-2D46-4A70-BE7B-58BCC69C1728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB2F176A-128D-4176-B75A-A077013CA20D}
