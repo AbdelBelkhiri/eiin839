@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "myHttpListener": {
+      "commandName": "Project",
+      "commandLineArgs": "http://localhost:8085/ http://localhost:8089/"
+    }
+  }
+}
