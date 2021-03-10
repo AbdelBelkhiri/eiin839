@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TD2\\myWebDynamic",
+    "\\TD2\\myWebDynamic\\myWebUrlParser",
+    "\\TD3",
+    "\\TD3\\JcDecaux",
+    "\\TD3\\JcDecaux\\question2",
+    "\\TD3\\JcDecaux\\question3",
+    "\\TD3\\JcDecaux\\question4"
   ],
-  "SelectedNode": "\\TCP Clients Telnet and Web.sln",
+  "SelectedNode": "\\TD3\\JcDecaux\\JcDecaux.sln",
   "PreviewInSolutionExplorer": false
 }
