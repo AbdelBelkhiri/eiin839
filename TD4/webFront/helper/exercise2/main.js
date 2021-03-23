@@ -15,5 +15,9 @@ function retrieveAllContracts() {
 function contractsRetrieved() {
     // Let's parse the response:
     var response = JSON.parse(this.responseText);
-    console.log(response);
+    for(var i = 0; i < response.length; i++){
+        // var elem = document.createElement("option");
+        // elem.setAttribute("value", response)
+        console.log(response[i].name);
+    }
 }
