@@ -1,14 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TD2\\myWebDynamic",
-    "\\TD2\\myWebDynamic\\myWebUrlParser",
-    "\\TD3",
-    "\\TD3\\JcDecaux",
-    "\\TD3\\JcDecaux\\question2",
-    "\\TD3\\JcDecaux\\question3",
-    "\\TD3\\JcDecaux\\question4"
+    "\\MathsOperations",
+    "\\MathsOperations\\MathsLibrary"
   ],
-  "SelectedNode": "\\TD3\\JcDecaux\\JcDecaux.sln",
+  "SelectedNode": "\\MathsOperations\\MathsOperations.sln",
   "PreviewInSolutionExplorer": false
 }
